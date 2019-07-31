@@ -4,7 +4,7 @@ var http = require('http');
 // configure our HTTP server
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello, flexible engine, this is the brandnew build <b> #97 </b>\n");
+  response.end("Hello, flexible engine, this is the brandnew build #98 \n");
 });
 
 // listen on localhost:8000
